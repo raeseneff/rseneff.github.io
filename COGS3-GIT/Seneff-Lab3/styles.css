@@ -1,0 +1,159 @@
+#title {
+  background-color: #739072;
+}
+
+.container-fluid {
+  padding: 3% 15% ;
+}
+
+h1{
+  font-family: ;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Baskervville', serif;
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 
+  'Baskervville', serif;
+}
+
+p{
+  color: #8f8f8f
+}
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.navbar-link {
+  font-family: 'Baskervville', serif;
+  font-size: 1.2rem;
+}
+/* download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+/*feature section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #ECE3CE;
+  position:relative;
+  z-index: 1;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #3A4D39;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#8fdbf2
+}
+
+/*testimonials sections*/
+#testimonials {
+  text-align: center;
+  background-color: #739072;
+}
+
+.carousel-item {
+padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#press {
+  background-color: #739072;
+  text-align: center;
+}
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+/* pricing section*/
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #ECE3CE;
+}
+
+.pricing-header {
+  color: black
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* call to action section CTA */
+
+#cta {
+  background-color: #739072;
+  color:#fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Baskervville', serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*footer section!!*/
+
+#footer {
+  padding: 7% 15%;
+text-align: center;
+background-color: #ECE3CE;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px){
+
+  #title {
+    text-align:center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate (0);
+  }
+}

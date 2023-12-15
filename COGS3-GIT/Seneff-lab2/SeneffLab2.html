@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Schedule for Rae Seneff-A17678902-Fall 2023 </title>
+  <link rel="stylesheet" href="css/styleLab2.css"
+  </head>
+  <body>
+    <h1>Schedule for Fall 2023!!</h1>
+    <h2> Definitions</h2>
+    <dt>How do you define a table?</dt>
+      <dd>To define a table you use table in < >. It creates a a table that can be used to put in your information</dd>
+    <dt>When do you use tr, th, td, thead, tfoot, caption?</dt>
+      <dd>tr: used when starting a row on your table.</dd>
+     <dd>th: used when you are putting in the categories for the table</dd>
+      <dd>td: used to put in your data for the table</dd>
+      <dd>thead: used when you are grouping headers in a table </dd>
+      <dd>tfoot: used when you are grouping footers in a table</dd>
+      <dd>caption: used when adding a title or caption to a table</dd>
+    <dt>What is the difference between colspan and rowspan?</dt>
+      <dd> Colspan combines cells across the table horizonatlly. Rowspan combines the cells vertically</dd>
+    <dt>What is the difference between cells spacing and padding?</dt>
+      <dd>Cell spacing is the space between teo cells in a table while padding is the space between the border of a cell and the content in it.</dd>
+    <dt>How do you define table borders using CSS?</dt>
+      <dd>You use border property to specify table table borders in a CSS file. It defines line weight and if it is a solid or dashed line.</dd>
+    <dt>How do you control border widths using CSS?</dt>
+      <dd>You use border-width property to define the thickness of borders. You specify the border wdith with :thin/medium/thick</dd>
+    <table border="1">
+      <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday and Sunday</th>
+      </tr>
+      <!-- 9am -->
+      <tr>
+        <td class="time">9am</td>
+        <td rowspan="2">CAT 1 Discussion</td>
+        <td colspan="5">wake up</td>
+       <!--wake up tue,wed,thur,fri,sat-->
+      </tr>
+      <!--9:30am-->
+      <tr>
+        <td class="time">9:30am</td>
+        <!--cat discussion-->
+        <td colspan="5"><a href="https://youtu.be/GxLwDHjIp4c?si=yH7TgGOQ2iXhP5km">sit around</a></td>
+        <!--tue,wed,thurs,fri,ss: sit around-->
+      </tr>
+      <!--10am-->
+      <tr>
+        <td class="time">10am</td>
+        <td>get breakfast</td>
+        <td rowspan="2"><a href="https://open.spotify.com/playlist/5DUXreJSVQGK3X6api1Xuc?si=f11a8121a4ab4d53">get ready</a></td>
+        <td><a href="https://open.spotify.com/playlist/5DUXreJSVQGK3X6api1Xuc?si=f11a8121a4ab4d53">get ready</a></td>
+        <td rowspan="2"><a href="https://www.psychologytoday.com/us/therapists/dojuana-d-hairston-temecula-ca/41406"> therapy</a></td>
+        <td rowspan="2" colspan="2">get breakfast</td>
+        <!--breakfast-->>
+      </tr>
+      <!--10:30am-->
+      <tr>
+        <td class="time">10:30am</td>
+       <td>leave for class</td>
+        <!--tue- get ready-->
+        <td>leave for class</td>
+       <!--therapy-->
+        <!--breakfast fri & sat/sun-->
+      </tr>
+      <!--11am-->
+      <tr>
+        <td class="time">11am</td>
+        <td rowspan="2">CAT 1</td>
+        <td>market run</td>
+        <td rowspan="2">CAT 1</td>
+        <td>get ready</td>
+        <td rowspan="2">CAT 1</td>
+        <td rowspan="2"><a href="https://youtu.be/09JlQLSOWbI?si=k9rGnWxKipr2CVz1">watch videos</a></td>
+      </tr>
+      <!--11:30am-->
+      <tr>
+        <td class="time">11:30am</td>
+        <!--cat 1-->
+        <td rowspan="5">geisel</td>
+        <!--cat 1-->
+        <td rowspan="5">geisel</td>
+        <!--cat 1-->
+        <!--shows!!-->
+      </tr>
+      <!--12-->
+      <tr>
+        <td class="time">12pm</td>
+        <td>eat lunch</td>
+        <!--geisel-->
+        <td>eat lunch</td>
+        <!--geisel-->
+        <td colspan="2">eat lunch</td>
+        <!--eat lunch- sat-->
+      </tr>
+      <!--12:30-->
+      <tr>
+        <td class="time">12:30pm</td>
+        <td rowspan="3">nap</td>
+        <!--geisel-->
+        <td rowspan="3">nap</td>
+        <!--geisel-->
+        <td rowspan="3" colspan="2">nap</td>
+        <!--nap-->
+      </tr>
+      <!--1-->
+      <tr>
+        <td class="time">1pm</td>
+        <!--nap-->
+       <!--geisel-->
+       <!--nap-->
+        <!--geisel-->
+        <!--nap-->
+        <!--nap-->
+      </tr>
+      <!--1:30-->
+      <tr>
+        <td class="time">1:30pm</td>
+        <!--nap-->
+        <!--geisel-->
+        <!--nap-->
+        <!--geisel-->
+        <!--nap-->
+        <!--nap-->
+      </tr>
+      <!--2-->
+      <tr>
+        <td class="time">2pm</td>
+        <td>clean</td>
+        <td rowspan="3">COGS 3</td>
+        <td>clean</td>
+        <td rowspan="3">COGS 3</td>
+        <td colspan="2">clean</td>
+        <!--clean-->
+      </tr>
+      <!--2:30-->
+      <tr>
+        <td class="time">2:30pm</td>
+        <td>leave for class</td>
+        <!--cogs-->
+        <td>leave for class</td>
+        <!--cogs-->
+        <td>leave for class</td>
+        <td rowspan="3"><a href="https://youtu.be/cYJII1tEk3I?si=7UlN39ao8fuCzUHY"> watch videos </a></td>
+      </tr>
+      <!--3-->
+      <tr>
+        <td class="time">3pm</td>
+        <td rowspan="2">SIO 15</td>
+        <!--cogs-->
+        <td rowspan="2">SIO 15</td>
+        <!--cogs-->
+        <td rowspan="2">SIO 15</td>
+        <!--shows-->
+      </tr>
+      <!--3:30-->
+      <tr>
+        <td class="time">3:30pm</td>
+        <!--sio15-->>
+        <td rowspan="5">geisel</td>
+        <!--sio15-->
+        <td rowspan="5">geisel</td>
+        <!--sio 15-->
+        <!--watch shows-->
+      </tr>
+      <!--4-->
+      <tr>
+        <td class="time">4pm</td>
+        <td>HW in Revelle
+          <img src="images/hw-in-revelle.jpeg">
+        </td>
+       <!--geisel-->
+        <td>HW in Revelle
+          <img src="images/hw-in-revelle.jpeg">
+        </td>
+        <!--geisel-->
+        <td>HW in Revelle
+          <img src="images/hw-in-revelle.jpeg">
+        </td>
+        <td rowspan="4"> Laundry</td>
+      </tr>
+      <!--4:30-->
+      <tr>
+        <td class="time">4:30pm</td>
+        <td>leave for class</td>
+        <!--geisel-->
+        <td>leave for class</td>
+      <!--geisel-->
+        <td>leave for class</td>
+        <!--laundry-->
+      </tr>
+      <!--5-->
+      <tr>
+        <td class="time">5pm</td>
+        <td rowspan="2">Math 4c</td>
+        <!--geisel-->
+        <td rowspan="2">Math 4c</td>
+        <!--geisel-->
+        <td rowspan="2">Math 4c</td>
+        <!--laundry-->
+      </tr>
+      <!--5:30-->
+      <tr>
+        <td class="time">5:30pm</td>
+        <!--math 4c-->
+        <!--geisel-->
+        <!--math 4c-->
+        <!--geisel-->
+        <!--math 4c-->
+        <!--laundry-->
+      </tr>
+      <!--6-->
+      <tr>
+        <td class="time">6pm</td>
+        <td rowspan="2">COGS lab</td>
+        <td rowspan="2">math discussion</td>
+        <td colspan="3" rowspan="2">eat dinner</td>
+        <!--hw-->
+        <!--hw-->
+        <td rowspan="4"> HW</td>
+      </tr>
+      <!--6:30-->
+      <tr>
+        <td class="time">6:30pm</td>
+        <!--lab-->
+       <!--math discussion-->
+       <!--hw-->
+        <!--hw-->
+      </tr>
+      <!--7-->
+      <tr>
+        <td class="time">7pm</td>
+        <td rowspan="4" colspan="4">HW</td>
+        <!--hw-->
+        <td rowspan="4"> go out!
+          <img src="images/go-out.jpeg">
+        </td>
+      </tr>
+      <!--7:30-->
+      <tr>
+        <td class="time">7:30pm</td>
+        <!--hw-->
+        <!--go out-->
+      </tr>
+      <!--8-->
+      <tr>
+        <td class="time">8pm</td>
+        <!--hw-->
+        <td rowspan="2"> Movie night
+          <img src="images/movie-night.jpeg">
+        </td>
+        <!--go out-->
+      </tr>
+      <!--8:30-->
+      <tr>
+        <td class="time">8:30pm</td>
+        <!--HW-->
+        <!--go out-->
+      </tr>
+      <!--9-->
+      <tr>
+        <td class="time">9pm</td>
+        <td colspan="6">sleep
+          <img src="images/sleep.jpeg">
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

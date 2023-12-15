@@ -1,0 +1,64 @@
+th {
+  background-color: rgb(255, 205, 226);
+  font-family: papyrus, copperlate, fantasy;
+  color: cornflowerblue;
+  font-size: larger;
+  font-weight: 900;
+}
+h1 {
+  color: rgb(86, 167, 221);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+td {
+  background-color: rgb(221, 201, 222);
+  color: rgb(40, 157, 116);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: medium;
+  text-align: center;
+  padding: 15px;
+}
+.time{
+  background-color: rgb(241, 199, 223);
+  font-size: large;
+  font-family: papyrus, copperlate, fantasy;
+  text-align: center;
+  color: green;
+  font-weight: bolder;
+  
+}
+body {
+  background-color: rgb(225, 215, 255);
+}
+h2, p {
+  color: darkslategrey;
+  font-family: papyrus, copperplate, fantasy;
+}
+a:link {
+  color: rgb(70, 177, 212);
+}
+a:visited {
+  color: rgb(129, 179, 113);
+}
+a:hover {
+  color: darkgreen;
+  font-size: large;
+  cursor: cell;
+}
+a:active {
+  color: olive;
+}
+dt {
+  color:seagreen;
+  font-weight: bold;
+  font-size: large;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+dd {
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img {
+  border: 1px black solid;
+  width: 150px
+}

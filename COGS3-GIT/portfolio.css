@@ -1,0 +1,44 @@
+ /* Carousel image sizes */
+        #hobbyCarousel .carousel-item img {
+            width: 100%; /* responsive width */
+            height: 500px; /* keep the height fixed height */
+            object-fit: cover; /* don't want the image to be distorted */
+        }
+
+/*navbar colors*/
+     .navbar {
+        background-color: #314bb2;
+     }
+  
+/*cards*/
+     .card-body {
+      background-color: white;
+     }
+
+     .card-title {
+      color: #314bb2;
+     }
+
+     .card-text {
+      color: #19264b;
+     }
+
+     body {
+      background-color: #BDCDD6;
+     }
+
+     p {
+      color:white; 
+     }
+
+     h2 {
+      color:white; 
+     }
+
+     a:link {
+      color:#435585;
+     }
+
+     a:visited {
+      color: #23376e;
+     }
